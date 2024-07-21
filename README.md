@@ -21,12 +21,14 @@ We are suppose to measure webpage response before load testing and during load t
 
 Folder structure :
 Folder structure in repository is as follows :
-LoadTest 
-    -loadTest.js
-    -options.js
-    - utilities.js
-    -testSummuryReport.html
-    -package.json
+
+    -loadTestAutomation
+      -LoadTest(Parent folder)
+        -loadTest.js
+        -options.js
+        - utilities.js
+        -testSummuryReport.html
+      -package.json
 
 1.	loadTest.js has the main test script. 
 2.	Options.js has the setup values for the tests
