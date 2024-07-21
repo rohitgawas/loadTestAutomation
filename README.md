@@ -10,7 +10,7 @@ choco install k6
 If you use the Windows Package Manager, install the official packages from the k6 manifests (created by the community):
 winget install k6 --source winget
 
-Alternatively, you can download and run the latest official installer.
+Alternatively, you can download and run the latest official installer(https://dl.k6.io/msi/k6-latest-amd64.msi).
 
 Test Scenario :
 
