@@ -22,5 +22,5 @@ jobs:
         node-version: "20.x"
     - name: run test
       working-directory: ./loadTest
-      run: k6 run test
+      run: k6 run .\loadTest.js
       
